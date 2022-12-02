@@ -1,0 +1,12 @@
+C:\givanildo\DEV\ServicoVeiculo2\ServicoVeiculos\Busines\bin\Debug\net6.0\Busines.deps.json
+C:\givanildo\DEV\ServicoVeiculo2\ServicoVeiculos\Busines\bin\Debug\net6.0\Busines.dll
+C:\givanildo\DEV\ServicoVeiculo2\ServicoVeiculos\Busines\bin\Debug\net6.0\Busines.pdb
+C:\givanildo\DEV\ServicoVeiculo2\ServicoVeiculos\Busines\obj\Debug\net6.0\Busines.csproj.AssemblyReference.cache
+C:\givanildo\DEV\ServicoVeiculo2\ServicoVeiculos\Busines\obj\Debug\net6.0\Busines.GeneratedMSBuildEditorConfig.editorconfig
+C:\givanildo\DEV\ServicoVeiculo2\ServicoVeiculos\Busines\obj\Debug\net6.0\Busines.AssemblyInfoInputs.cache
+C:\givanildo\DEV\ServicoVeiculo2\ServicoVeiculos\Busines\obj\Debug\net6.0\Busines.AssemblyInfo.cs
+C:\givanildo\DEV\ServicoVeiculo2\ServicoVeiculos\Busines\obj\Debug\net6.0\Busines.csproj.CoreCompileInputs.cache
+C:\givanildo\DEV\ServicoVeiculo2\ServicoVeiculos\Busines\obj\Debug\net6.0\Busines.dll
+C:\givanildo\DEV\ServicoVeiculo2\ServicoVeiculos\Busines\obj\Debug\net6.0\refint\Busines.dll
+C:\givanildo\DEV\ServicoVeiculo2\ServicoVeiculos\Busines\obj\Debug\net6.0\Busines.pdb
+C:\givanildo\DEV\ServicoVeiculo2\ServicoVeiculos\Busines\obj\Debug\net6.0\ref\Busines.dll
