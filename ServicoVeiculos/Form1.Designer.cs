@@ -30,14 +30,14 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.GridCarro = new System.Windows.Forms.DataGridView();
+            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Placa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Descricao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
-            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Placa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Descricao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.GridCarro)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,6 +63,24 @@
             this.GridCarro.RowTemplate.Height = 25;
             this.GridCarro.Size = new System.Drawing.Size(382, 293);
             this.GridCarro.TabIndex = 1;
+            // 
+            // Codigo
+            // 
+            this.Codigo.DataPropertyName = "Codigo";
+            this.Codigo.HeaderText = "Código";
+            this.Codigo.Name = "Codigo";
+            // 
+            // Placa
+            // 
+            this.Placa.DataPropertyName = "Placa";
+            this.Placa.HeaderText = "Placa";
+            this.Placa.Name = "Placa";
+            // 
+            // Descricao
+            // 
+            this.Descricao.DataPropertyName = "Descricao";
+            this.Descricao.HeaderText = "Descricao";
+            this.Descricao.Name = "Descricao";
             // 
             // button2
             // 
@@ -108,24 +126,7 @@
             this.button4.TabIndex = 6;
             this.button4.Text = "Buscar";
             this.button4.UseVisualStyleBackColor = true;
-            // 
-            // Codigo
-            // 
-            this.Codigo.DataPropertyName = "Codigo";
-            this.Codigo.HeaderText = "Código";
-            this.Codigo.Name = "Codigo";
-            // 
-            // Placa
-            // 
-            this.Placa.DataPropertyName = "Placa";
-            this.Placa.HeaderText = "Placa";
-            this.Placa.Name = "Placa";
-            // 
-            // Descricao
-            // 
-            this.Descricao.DataPropertyName = "Descricao";
-            this.Descricao.HeaderText = "Descricao";
-            this.Descricao.Name = "Descricao";
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 

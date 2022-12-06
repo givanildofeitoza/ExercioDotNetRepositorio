@@ -7,24 +7,24 @@ using System.Threading.Tasks;
 
 namespace Data.Repositorio
 {
-    public abstract class RepositorioVeiculos<Tveiculo> where Tveiculo : Entity
+    public abstract class RepositorioVeiculos<T> where T : Veiculo
     {
-        protected List<Tveiculo> _veiculos;
+        protected List<T> _veiculos;
 
         public RepositorioVeiculos()
         {
-            _veiculos = new List<Tveiculo>();
+            _veiculos = new List<T>();
         }
 
-        public virtual void InserirVeiculo(Tveiculo veiculo)
+        public virtual void InserirVeiculo(T veiculo)
         {
             _veiculos.Add(veiculo);
         }
-        public virtual Tveiculo ObterVeiculo(int codigo)
+        public virtual T ObterVeiculo(int codigo)
         {
             return _veiculos.FirstOrDefault(x => x.Codigo == codigo);
         }
-        public virtual List<Tveiculo> ObterListaVeiculo()
+        public virtual List<T> ObterListaVeiculo()
         {
             return _veiculos;
         }

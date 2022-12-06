@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Busines.Models
 {
-    public class Veiculo : Entity
+    public class Veiculo 
     {
+        public int Codigo { get; set; }
         public string Descricao { get; set; }
         public string Placa { get; set; }
         public EnumTipo Tipo { get; set; }
